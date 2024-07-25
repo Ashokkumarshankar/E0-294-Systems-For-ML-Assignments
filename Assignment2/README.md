@@ -1,13 +1,13 @@
 ## Effect of Post Training Quantization on VGG16 trained using CIFAR-10 dataset.
 
-- This contains results for the VGG16 model quantization, SmallNet quantization has it's own report.
+- This contains results for the VGG16 model quantization, SmallNet quantization has it's own report in the current directory.
 
 ### Plots showing the effect of training VGG16 model using the parameters from config.yaml on CIFAR-10 dataset.
 
 <figure>
 <center>
   <img
-  src="./results/VGG16_acc_plot.png"
+  src="./vgg16/results//VGG16_acc_plot.png"
   alt="Accuracy-Plot">
   <b><figcaption>Accuracy Plot</figcaption></b>
 </center>
@@ -17,7 +17,7 @@
 <center>
 
 <img
-  src="./results/VGG16_loss_plot.png"
+  src="./vgg16/results//VGG16_loss_plot.png"
   alt="Loss-Plot">
 <b><figcaption>Loss Plot</figcaption></b>
 
@@ -26,7 +26,7 @@
 
 <figure>
 <center>  <img
-  src="./results/VGG16_train_acc_loss.png"
+  src="./vgg16/results//VGG16_train_acc_loss.png"
   alt="Accuracy-Loss-Plot">
   <b><figcaption>Accuracy vs Loss Plot</figcaption></b>
   </center>
@@ -45,7 +45,7 @@
 <figure>
   <center>
   <img
-  src="./results/accuracy_data.png"
+  src="./vgg16/results//accuracy_data.png"
   alt="Accuracy-Data">
   </center>
 </figure>
@@ -57,7 +57,7 @@
 <figure>
   <center>
   <img
-  src="./results/model_size.png"
+  src="./vgg16/results//model_size.png"
   alt="Model-Size">
   </center>
 </figure>
@@ -69,7 +69,7 @@
 <figure>
   <center>
   <img
-  src="./results/macs.png"
+  src="./vgg16/results//macs.png"
   alt="MAC-Operations">
   </center>
 </figure>
@@ -81,7 +81,7 @@
 <figure>
   <center>
   <img
-  src="./results/inference_time.png"
+  src="./vgg16/results//inference_time.png"
   alt="Inference-Time">
   </center>
 </figure>
